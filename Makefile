@@ -3,7 +3,7 @@ export TARGET = iphone:clang:latest:14.0
 
 INSTALL_TARGET_PROCESSES = SpringBoard Preferences
 
-TWEAK_NAME = REPLACE_THIS_TWEAKNAME
+TWEAK_NAME = 9 (ls)
 $(TWEAK_NAME)_FILES = $(wildcard src/*.xm src/*.m)
 $(TWEAK_NAME)_CFLAGS = -fobjc-arc
 
