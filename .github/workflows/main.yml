@@ -36,5 +36,5 @@ jobs:
             - name: Upload package
               uses: actions/upload-artifact@v4
               with:
-                name: 'Package'
+                name: '9 (LS)'
                 path: ${{ github.workspace }}/packages/*.deb
